@@ -26,7 +26,8 @@
 
 <!-- <img src="<?php echo $base_url ?>/images/the etch (1).png" alt="music lyrics"> -->
 
-<section class="intro-section">
+<div class="container">
+    <section class="intro-section">
   <h2>Shadow & Storm: The Lyric Cycle That Burns Through Silence</h2>
   <p><strong>Shadow & Storm</strong> is more than a lyric cycle. It’s a ten-plus-track arc forged from rupture, rage, and resurrection.</p>
   <p>Each song is carved from static, silence, and the fire too long caged. Written not to entertain—but to awaken.</p>
@@ -51,6 +52,8 @@
   <p>If you’ve felt the signal, even faintly—you’re already part of this.</p>
   <p><strong>Shadow & Storm</strong> isn’t a concept. It’s a calling. And now, it’s calling back.</p>
 </section>
+</div>
+
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
