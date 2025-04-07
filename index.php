@@ -22,7 +22,7 @@
 <?php include('nav.php'); ?>
 
 
-<img src="<?php echo $base_url ?>/images/the etch (1).png" alt="music lyrics">
+<!-- <img src="<?php echo $base_url ?>/images/the etch (1).png" alt="music lyrics"> -->
 
 <section class="intro-section">
   <h2>Shadow & Storm: The Lyric Cycle That Burns Through Silence</h2>

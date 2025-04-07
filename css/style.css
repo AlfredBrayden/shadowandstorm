@@ -1,10 +1,17 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;700&family=Orbitron:wght@500;700&display=swap');
+
+/* Base Styles */
 body {
   margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Crimson Pro', serif;
   background-color: #0b0c10;
   color: #eee;
+  line-height: 1.7;
+  font-size: 1.05rem;
 }
 
+/* Header */
 header {
   background-color: #1c1f26;
   padding: 20px 40px;
@@ -17,10 +24,12 @@ header {
 .logo {
   font-size: 1.8em;
   font-weight: bold;
+  font-family: 'Orbitron', sans-serif;
   color: #d4af37;
   letter-spacing: 1px;
 }
 
+/* Navigation */
 nav ul {
   list-style: none;
   margin: 0;
@@ -38,6 +47,7 @@ nav a {
   color: #ccc;
   text-decoration: none;
   font-size: 1em;
+  font-family: 'Orbitron', sans-serif;
   transition: color 0.3s ease;
 }
 
@@ -46,6 +56,7 @@ nav a:hover {
   text-shadow: 0 0 5px rgba(212, 175, 55, 0.5);
 }
 
+/* Dropdown Menu */
 .dropdown-content {
   display: none;
   position: absolute;
@@ -80,4 +91,44 @@ nav a:hover {
 
 .dropbtn {
   cursor: pointer;
+}
+
+/* Section Content Styling */
+section {
+  max-width: 900px;
+  margin: 80px auto;
+  padding: 40px 20px;
+  background-color: #121418;
+  border: 1px solid #333;
+  box-shadow: 0 0 30px rgba(212, 175, 55, 0.06);
+}
+
+section h2 {
+  font-size: 1.9rem;
+  color: #d4af37;
+  margin-bottom: 1rem;
+}
+
+section p {
+  margin-bottom: 1.4rem;
+  color: #ddd;
+}
+
+section ul {
+  margin-bottom: 1.4rem;
+  padding-left: 20px;
+}
+
+section ul li {
+  list-style-type: square;
+  margin-bottom: 0.8rem;
+  color: #ccc;
+}
+
+/* Lyrics Styling */
+.lyrics {
+  white-space: pre-wrap;
+  font-family: 'Crimson Pro', serif;
+  line-height: 1.7;
+  color: #ddd;
 }
