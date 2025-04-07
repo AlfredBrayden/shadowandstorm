@@ -12,8 +12,10 @@
     <!-- CSS Files
     ================================================== -->
     <link href="<?php echo $base_url ?>/css/style.css" rel="stylesheet" type="text/css" >
-    <link href="<?php echo $base_url ?>/css/shadow_and_storm_fonts.css" rel="stylesheet" type="text/css" >
-    <link href="<?php echo $base_url ?>/css/style-snippet.css" rel="stylesheet" type="text/css" >
+
+    <!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
 
 
 </head>
@@ -49,6 +51,9 @@
   <p>If you’ve felt the signal, even faintly—you’re already part of this.</p>
   <p><strong>Shadow & Storm</strong> isn’t a concept. It’s a calling. And now, it’s calling back.</p>
 </section>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 
 </body>

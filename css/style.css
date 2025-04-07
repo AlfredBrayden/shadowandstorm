@@ -9,9 +9,21 @@ body {
   color: #eee;
   line-height: 1.7;
   font-size: 1.05rem;
-  background: url('images/the etch (1).png') no-repeat center center fixed;
+  background: url('../images/bg.png') no-repeat center center fixed;
   background-size: cover;
 }
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(11, 12, 16, 0.8);
+  z-index: -1;
+}
+
 
 /* Header */
 header {
