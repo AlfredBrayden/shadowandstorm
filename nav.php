@@ -1,6 +1,6 @@
 <header class="bg-dark border-bottom border-secondary">
   <nav class="navbar navbar-expand-lg navbar-dark container">
-    <a class="navbar-brand fw-bold text-warning" href="#">Shadow & Storm</a>
+    <a class="navbar-brand fw-bold text-warning" href="<?php echo $base_url ?>">Shadow & Storm</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
       <span class="navbar-toggler-icon"></span>
     </button>
