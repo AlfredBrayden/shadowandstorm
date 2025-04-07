@@ -113,7 +113,8 @@ nav a:hover {
 /* Section Content Styling */
 section {
   max-width: 900px;
-  margin: 80px auto;
+  margin: 0px auto;
+  margin-bottom: 30px !important;
   padding: 40px 30px;
   background-color: #121418;
   border: 1px solid #333;
