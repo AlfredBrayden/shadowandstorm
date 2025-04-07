@@ -20,6 +20,8 @@
 <?php include('nav.php'); ?>
 
 
+<img src="<?php echo $base_url ?>/images/the etch.png" alt="music lyrics">
+
 
 </body>
 </html>
