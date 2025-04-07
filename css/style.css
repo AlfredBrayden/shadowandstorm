@@ -9,7 +9,10 @@ body {
   color: #eee;
   line-height: 1.7;
   font-size: 1.05rem;
-  background: url('../images/bg.png') no-repeat center center fixed;
+}
+
+.home-page-bg{
+  background: url('../images/home-bg.webp') no-repeat center center fixed;
   background-size: cover;
 }
 

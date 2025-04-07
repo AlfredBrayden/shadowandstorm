@@ -23,6 +23,7 @@
 
 <?php include('nav.php'); ?>
 
+<div class="home-page-bg">
 
 <!-- <img src="<?php echo $base_url ?>/images/the etch (1).png" alt="music lyrics"> -->
 
