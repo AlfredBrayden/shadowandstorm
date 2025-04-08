@@ -8,7 +8,7 @@
 
     <?php include('nav.php'); ?>
 
-    <div class="cycle-page-bg">
+    <div class="single-page-bg">
 
 
         <div class="container">

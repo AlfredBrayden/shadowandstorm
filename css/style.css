@@ -157,6 +157,9 @@ section ul li {
 
 .subtitle{
   color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2rem;
 }
 
 /* Lyrics Styling */
