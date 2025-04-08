@@ -16,6 +16,11 @@ body {
   background-size: cover;
   padding: 50px;
 }
+.single-page-bg{
+  background: url('../images/the signal (2).webp') no-repeat center center fixed;
+  background-size: cover;
+  padding: 50px;
+}
 
 body::before {
   content: "";
@@ -160,4 +165,50 @@ footer{
 
 footer p{
   color: white !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.signal-page {
+  max-width: 800px;
+  margin: 80px auto;
+  padding: 40px 20px;
+  background-color: #121418;
+  border: 1px solid #333;
+  box-shadow: 0 0 40px rgba(212, 175, 55, 0.08);
+  line-height: 1.8;
+  font-size: 1.1rem;
+}
+
+.signal-page h1 {
+  color: #d4af37;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.signal-page p {
+  margin-bottom: 1.5rem;
+  color: #ddd;
+}
+
+.signal-page .breakout {
+  font-size: 1.2rem;
+  color: #fff;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
 }
