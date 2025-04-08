@@ -132,11 +132,6 @@ section {
   box-shadow: 0 0 30px rgba(212, 175, 55, 0.06);
 }
 
-section h2 {
-  font-size: 2.5rem;
-  color: #ffffff;
-  margin-bottom: 1rem;
-}
 
 section h2 {
   font-size: 1.9rem;
@@ -206,7 +201,8 @@ footer p{
 
 .signal-page h1 {
   color: #d4af37;
-  font-size: 2rem;
+  font-weight: bold;
+  font-size: 2.4rem;
   margin-bottom: 1.5rem;
   text-align: center;
 }
