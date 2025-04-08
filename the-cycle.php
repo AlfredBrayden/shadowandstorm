@@ -1,6 +1,6 @@
 <?php include('header.php'); ?>
 
-<title>Signal | Shadow & Storm</title>
+<title>Shadow & Storm | The Cycle</title>
 
 </head>
 
@@ -14,7 +14,7 @@
         <div class="container">
 
 
-            <div class="content">
+        <section class="signal-page">
                 <h1>Shadow & Storm</h1>
                 <h2>The Language Beneath the Silence</h2>
                 <p>These aren’t written in bars or stanzas.<br>
@@ -57,7 +57,7 @@
 
                 <p><strong>It’s Shadow & Storm.<br>
                         And it’s calling you.</strong></p>
-            </div>
+</section>
 
 
 
