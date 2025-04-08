@@ -21,6 +21,11 @@ body {
   background-size: cover;
   padding: 50px;
 }
+.cycle-page-bg{
+  background: url('../images/the cycle.webp') no-repeat center center fixed;
+  background-size: cover;
+  padding: 50px;
+}
 
 body::before {
   content: "";
@@ -211,4 +216,13 @@ footer p{
   text-align: center;
   margin-top: 3rem;
   margin-bottom: 2rem;
+}
+
+
+.content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 60px 30px;
+  line-height: 1.6;
+  font-size: 1.1em;
 }
