@@ -30,7 +30,7 @@
             <li><a class="dropdown-item" href="track10.php">10 - Dyssamon’s Fall</a></li>
           </ul>
         </li>
-        <li class="nav-item"><a class="nav-link" href="about.php">About</a></li>
+       <!--  <li class="nav-item"><a class="nav-link" href="about.php">About</a></li> -->
         <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
         <li class="nav-item"><a class="nav-link" href="signal.php">The Signal</a></li>
       </ul>
