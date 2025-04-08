@@ -155,6 +155,10 @@ section ul li {
   color: #ccc;
 }
 
+.subtitle{
+  color: white;
+}
+
 /* Lyrics Styling */
 .lyrics {
   white-space: pre-wrap;
