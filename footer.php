@@ -1,7 +1,9 @@
 
 
 <footer>
-    <p>© 2025 Chris Gabriel. All content, including lyrics, text, and design, is protected under U.S. Copyright law. All rights reserved. All lyrics are officially registered with the U.S. Copyright Office. Unauthorized use or reproduction of this material will result in legal action.</p>
+    <div class="container">
+        <p>© 2025 Chris Gabriel. All content, including lyrics, text, and design, is protected under U.S. Copyright law. All rights reserved. All lyrics are officially registered with the U.S. Copyright Office. Unauthorized use or reproduction of this material will result in legal action.</p>
+    </div>
 </footer>
 
 
