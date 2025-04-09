@@ -1,6 +1,6 @@
 <?php include('header.php'); ?>
 
-<title>Welcome to the Shadow - Shadow & Storm</title>
+<title>01 - The Oath - Chris Gabriel</title>
 
 </head>
 
@@ -16,10 +16,9 @@
 
         <section class="signal-page">
 
-        <h1>Welcome to the Shadow</h1>
-    <div class="subtitle">Track 01 – Shadow & Storm</div>
+        <h1>01 - The Oath</h1>
     <div class="lyrics">
-[ Lyrics will go here. ]
+    [Insert full lyrics of 01 - The Oath here]
     </div>
 
 </section>
