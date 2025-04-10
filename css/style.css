@@ -231,6 +231,6 @@ footer p{
   margin-bottom: 2rem;
 }
 
-.link{
-  color: #d4af37;
+a.link{
+  color: #d4af37 !important;
 }
