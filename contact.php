@@ -6,13 +6,6 @@ ob_start();
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
-// Check for output
-if (ob_get_length() > 0) {
-    echo "Output detected: " . ob_get_contents();
-    ob_end_clean(); // Clear the buffer
-    exit;
-}
-
 include('header.php');
 ?>
 
@@ -30,6 +23,7 @@ include('header.php');
 define('MAIL_TO', 'alfredbrayden11@gmail.com');
 
 $errors = array(); // Initialize $errors as an array
+$success = false;
 $name = '';
 $email = '';
 $subject = '';
@@ -104,14 +98,15 @@ function display_value($fieldName)
  * Display message to users
  * @param array $errors Array of errors
  */
-function display_message($errors)
+function display_message($errors, $success)
 {
     if (!isset($_POST['submit'])) {
         return;
     }
-    if (count($errors) === 0) {
-        // No need to display a success message here since we're redirecting
-    } else {
+
+    if ($success) {
+        echo '<div class="form-feedback success">Thank you for reaching out! We will get back to you soon.</div>';
+    } elseif (count($errors) > 0) {
         ?>
         <div class="alert alert-block alert-danger fade in">
             <p>The following error(s) occurred:</p>
@@ -132,12 +127,11 @@ function display_message($errors)
  */
 function start_form()
 {
-    global $errors, $name, $email, $subject, $message;
+    global $errors, $success, $name, $email, $subject, $message;
 
-    $mail_msg = '';
     if (isset($_POST['submit'])) {
         if (validate_form()) {
-            $mail_msg .= 'From: ' . $name . "\n";
+            $mail_msg = 'From: ' . $name . "\n";
             $mail_msg .= 'Email: ' . $email . "\n";
             $mail_msg .= 'Subject: ' . ($subject ? $subject : "No Subject") . "\n";
             $mail_msg .= 'Message: ' . $message . "\n";
@@ -151,10 +145,9 @@ function start_form()
 
             // Send the email
             if (mail(MAIL_TO, $email_subject, $mail_msg, $headers)) {
-                // Email sent successfully, now redirect
-                ob_end_clean(); // Clear the output buffer
-                header('Location: thank-you.php'); // Change this to your thank you page
-                exit();
+                $success = true;
+                // Clear form fields on success
+                $name = $email = $subject = $message = '';
             } else {
                 // Email failed to send
                 $errors[] = 'Error sending email';
@@ -172,7 +165,7 @@ start_form();
         <section class="signal-page">
             <h1>Contact Us</h1>
 
-            <?php display_message($errors); ?>
+            <?php display_message($errors, $success); ?>
 
             <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post">
                 <label for="name">Your Name</label>
@@ -184,10 +177,10 @@ start_form();
                 <label for="subject">Subject (Optional)</label>
                 <select id="subject" name="subject">
                     <option value="">Select a Subject</option>
-                    <option value="Feedback" <?php echo (isset($_POST['subject']) && $_POST['subject'] == 'Feedback') ? 'selected' : ''; ?>>Feedback</option>
-                    <option value="Lyric Inquiry" <?php echo (isset($_POST['subject']) && $_POST['subject'] == 'Lyric Inquiry') ? 'selected' : ''; ?>>Lyric Inquiry</option>
-                    <option value="Sync Request" <?php echo (isset($_POST['subject']) && $_POST['subject'] == 'Sync Request') ? 'selected' : ''; ?>>Sync Request</option>
-                    <option value="Other" <?php echo (isset($_POST['subject']) && $_POST['subject'] == 'Other') ? 'selected' : ''; ?>>Other</option>
+                    <option value="Feedback" <?php echo (isset($_POST['subject']) && $_POST['subject'] == 'Feedback' ? 'selected' : ''; ?>>Feedback</option>
+                    <option value="Lyric Inquiry" <?php echo (isset($_POST['subject']) && $_POST['subject'] == 'Lyric Inquiry' ? 'selected' : ''; ?>>Lyric Inquiry</option>
+                    <option value="Sync Request" <?php echo (isset($_POST['subject']) && $_POST['subject'] == 'Sync Request' ? 'selected' : ''; ?>>Sync Request</option>
+                    <option value="Other" <?php echo (isset($_POST['subject']) && $_POST['subject'] == 'Other' ? 'selected' : ''; ?>>Other</option>
                 </select>
 
                 <label for="message">Your Message</label>
@@ -200,4 +193,7 @@ start_form();
     </div>
 </div>
 
-<?php include('footer.php'); ?>
+<?php
+ob_end_flush();
+include('footer.php');
+?>
