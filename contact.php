@@ -60,7 +60,7 @@
                 $subject = htmlspecialchars(trim($_POST['subject']));
                 $message = htmlspecialchars(trim($_POST['message']));
 
-                $to = "amahboob@cinnova.com";
+                $to = "alfredbrayden11@gmail.com";
                 $email_subject = "Contact Form Submission: " . ($subject ? $subject : "No Subject");
 
                 $email_body = "You have received a new message from the contact form:\n\n";
