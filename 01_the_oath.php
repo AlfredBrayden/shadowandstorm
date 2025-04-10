@@ -1,9 +1,9 @@
 <?php include('header.php'); ?>
 
-<title>Track 0 – The Oath</title>
+<title>Track 1 – The Oath</title>
 
 <meta name="description"
-    content=" Track 0 – The Oath is the opening piece of the Shadow & Storm lyric cycle by Chris Gabriel. A solemn, spoken-word invocation of sacrifice, silence, and the pull toward the unknown depths of the verse." />
+    content=" Track 1 – The Oath is the opening piece of the Shadow & Storm lyric cycle by Chris Gabriel. A solemn, spoken-word invocation of sacrifice, silence, and the pull toward the unknown depths of the verse." />
 
 </head>
 
