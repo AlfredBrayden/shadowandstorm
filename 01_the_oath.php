@@ -19,7 +19,7 @@
 
             <section class="signal-page">
 
-                <h2>Track 1 – The Oath</h2>
+                <h1>Track 1 – The Oath</h1>
 
                 <p><em>(Spoken or half-sung. Built for rhythm, space, and slow ignition.)</em></p>
 
