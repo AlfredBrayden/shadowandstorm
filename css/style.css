@@ -296,3 +296,16 @@ button:hover {
   color: #721c24;
   border: 1px solid #f5c6cb;
 }
+
+
+
+.thank-you p{
+  color:white !important;
+margin-bottom: 20px;
+}
+
+.thank-you a{
+  padding: 15px 25px;
+  color: black;
+  background-color: #d4af37;
+}
