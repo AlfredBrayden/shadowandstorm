@@ -64,7 +64,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $subject = htmlspecialchars(trim($_POST['subject']));
     $message = htmlspecialchars(trim($_POST['message']));
 
-    $to = "chrisg@reticleweb.com";
+    $to = "amahboob@cinnova.com";
     $email_subject = "Contact Form Submission: " . ($subject ? $subject : "No Subject");
 
     $email_body = "You have received a new message from the contact form:\n\n";
