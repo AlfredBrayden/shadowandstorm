@@ -11,7 +11,7 @@
 
     <?php include('nav.php'); ?>
 
-    <div class="single-page-bg">
+    <div class="single-page-bg track-page">
 
 
         <div class="container">
