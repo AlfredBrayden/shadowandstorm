@@ -18,8 +18,8 @@
             <section class="signal-page thank-you">
 
 <div class="text-center">
-    <h2>Thanks For Submitting the Form</h2>
-<p>Thank you for submitting the form. We will get back to you soon.</p>
+
+<h2>Thank you for submitting the form. We will get back to you soon.</h2>
 <a href="/" class="yellow-btn">Back to Home</a>
 </div>
 
