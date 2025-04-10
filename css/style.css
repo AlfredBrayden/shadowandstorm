@@ -185,7 +185,7 @@ footer p{
 
 .track-page h1 {
 
-  font-family: 'Playfair Display', serif;
+  font-family: 'Playfair Display', serif !important;
 
   font-weight: 700;
 
@@ -201,7 +201,7 @@ footer p{
 
 .track-page h2 {
 
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Playfair Display', serif !important;
 
   font-weight: 600;
 
