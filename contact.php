@@ -27,7 +27,7 @@ include('header.php');
 <?php include('nav.php');
 
 // Define email recipient
-define('MAIL_TO', 'amahboob@cinnova.com');
+define('MAIL_TO', 'chrisg@reticleweb.com');
 
 $errors = array(); // Initialize $errors as an array
 $name = '';
