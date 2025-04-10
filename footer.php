@@ -1,6 +1,6 @@
 <footer>
     <div class="container text-center ">
-        <div class="text-center mx-auto" style="800px">
+        <div class="text-center mx-auto" style="max-width:800px;">
             <p>© 2025 Chris Gabriel. All content, including lyrics, text, and design, is protected under U.S. Copyright
                 law. All rights reserved. All lyrics are officially registered with the U.S. Copyright Office.
                 Unauthorized use or reproduction of this material will result in legal action.</p>
